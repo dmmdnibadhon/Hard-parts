@@ -60,7 +60,9 @@ li {
     left: 0;
     bottom: 0;
 }
-
+/* #ablueh{
+    background-color: var(--main_hover);
+} */
 /* Common CSS part end */
 /* About us part start */
 #aboutus {}
@@ -108,7 +110,11 @@ li {
 /* About us part end */
 /* Our services part start */
 #ours{}
-.ours_main{}
+.ours_main{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
 .ours_main .ours_items{
     width: 300px;
     background: var(--gray-white);
@@ -125,11 +131,14 @@ li {
     border: 3px solid var(--white);
     margin: 0 auto;
     position: relative;
-    transform: translate(-50%);
-    -webkit-transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ours_main .ours_items .circle::after{
     content: "";

@@ -52,6 +52,9 @@ ul, ol, li{
     bottom: 0;
     
 }
+/* #ablueh{
+    background: var(--main_hover);
+} */
 /* Common CSS part end */
 /* About us part start */
 #aboutus{}
@@ -97,7 +100,11 @@ ul, ol, li{
 /* About us part end */
 /* Our services part start */
 #ours{}
-.ours_main{}
+.ours_main{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
 .ours_main .ours_items{
     width: 300px;
     background: var(--gray-white);
@@ -116,8 +123,30 @@ ul, ol, li{
     justify-content: center;
     transition: all linear .3s;
 }
-.ours_main .ours_items .circle{}
-.ours_main .ours_items .text{
+.ours_main .ours_items .circle::after{
+    content: "";
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid var(--gray-white);
+    outline: 3px solid var(--white);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+/* .ours_main .ours_items .circle img#ablueh{
+    background: var(--main_hover);
+} */
+        .ours_main .ours_items .text{
     text-align: center;
     padding: 0 20px 20px;
 }
