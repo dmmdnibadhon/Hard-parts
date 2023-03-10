@@ -41,7 +41,7 @@ ul, ol, li{
     content: "";
     width: 60px;
     height: 2px;
-    background: url(../../Images/PSD-9/ab-shape.png) no-repeat center;
+    background: url(../../images/ab-shape.png) no-repeat center;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -120,7 +120,7 @@ body{
 
 /* Banner start */
 #banner{
-    background: url(../../Images/PSD-9/banner.jpg) no-repeat top;
+    background: url(../../images/banner.jpg) no-repeat top;
     background-size: cover;
 }
 .overlay{
@@ -428,7 +428,7 @@ body{
     height: 80px;
     margin: 0 auto;
     border-radius: 50%;
-    background: url(../../Images/PSD-9/Testimonial-1.png) var(--gray-white);
+    background: url(../../images/Testimonial-1.png) var(--gray-white);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -438,7 +438,7 @@ body{
     height: 80px;
     margin: 0 auto;
     border-radius: 50%;
-    background: url(../../Images/PSD-9/Testimonial-2.png) var(--gray-white);
+    background: url(../../images/Testimonial-2.png) var(--gray-white);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
