@@ -1,0 +1,154 @@
+/* CSS variables part start */
+:root {
+    --font_poppins: 'Poppins', sans-serif;
+    --font_nunito: 'Nunito Sans', sans-serif;
+    --dark_green_color: #007F5F;
+    --white_color: #FFFFFF;
+    --orange_color: #FF8B00;
+    --all_heading_black_color: #292929;
+    --all_paragraph_black_color: #6A6A6A;
+
+}
+/* CSS variables part end */
+/* Common CSS part start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+a,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+.all_common_heading h2{
+    color: var(--all_heading_black_color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font-family)
+}
+.all_common_heading p{
+    color: var(--all_paragraph_black_color);
+    width: 692px;
+    margin: 0 auto;
+    padding-bottom: 112px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: var(--font-family)
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Common CSS part end */
+/* Banner part start */
+#banner{
+    background: url(images/pack\ &\ go/banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.4);
+}
+.banner_items{}
+.banner_items .banner_info{
+    width: 573px;
+}
+.banner_items .banner_info h1{
+    color: var(--white_color);
+    font-size: 65px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    padding: 148px 0 30px 0;
+}
+.banner_items .banner_info p{
+    color: var(--white_color);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--font_poppins);
+}
+.banner_items .banner_btn a{
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    background: var(--dark_green_color);
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    padding: 16px 35px;
+}
+.banner_items .banner_btn a:hover{
+    text-decoration: none;
+}
+.banner_items .banner_location{
+    background: var(--white_color);
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    padding: 23px 35px;
+    display: flex;
+    gap: 70px;
+}
+.banner_items .banner_location h3{
+    
+}
+.banner_items .banner_location span{
+    color: var(--all_heading_black_color);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font_nunito);
+    margin: 0 20px 0 26px;
+}
+.banner_items .banner_location i.agreenb{
+    color: var(--dark_green_color);
+}
+.banner_items .banner_location input{
+    border: none;
+    color: var(--all_heading_black_color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_nunito);
+    margin: 8px 0 0 46px;
+}
+.banner_items .location_btn a{
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    background: var(--dark_green_color);
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    padding: 16px 35px;
+}
+/* Banner part end */
