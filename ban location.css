@@ -86,14 +86,13 @@ li {
 .banner_items .banner_info p{
     color: var(--white_color);
     font-size: 16px;
-    line-height: 30px;
     font-weight: 400;
     font-family: var(--font_poppins);
 }
-.banner_items .banner_btn a{
+.banner_items .banner_info .banner_btn a{
     color: var(--white_color);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     font-family: var(--font_poppins);
     background: var(--dark_green_color);
     border-radius: 17px;
@@ -103,9 +102,6 @@ li {
     -o-border-radius: 17px;
     padding: 16px 35px;
 }
-.banner_items .banner_btn a:hover{
-    text-decoration: none;
-}
 .banner_items .banner_location{
     background: var(--white_color);
     border-radius: 17px;
@@ -113,33 +109,24 @@ li {
     -moz-border-radius: 17px;
     -ms-border-radius: 17px;
     -o-border-radius: 17px;
-    padding: 23px 35px;
+    padding: 35px 23px;
     display: flex;
     gap: 70px;
 }
-.banner_items .banner_location h3{
-    
-}
 .banner_items .banner_location span{
-    color: var(--all_heading_black_color);
-    font-size: 20px;
-    font-weight: 700;
-    font-family: var(--font_nunito);
-    margin: 0 20px 0 26px;
+    margin: 0 20px 0 11px;
 }
 .banner_items .banner_location i.agreenb{
     color: var(--dark_green_color);
 }
 .banner_items .banner_location input{
     border: none;
-    color: var(--all_heading_black_color);
     font-size: 16px;
     font-weight: 400;
     font-family: var(--font_nunito);
-    margin: 8px 0 0 46px;
+    margin: 8px 47px 0 0;
 }
-.banner_items .banner_location .locatation_items a{
-    border: none;
+.banner_btn button{
     color: var(--white_color);
     background: var(--dark_green_color);
     border-radius: 17px;
