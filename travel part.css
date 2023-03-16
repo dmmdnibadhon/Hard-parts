@@ -1,0 +1,82 @@
+/* CSS variables part start */
+:root{
+    --font_family_poppins: 'Poppins', sans-serif;
+    --font_family_nunito_sans: 'Nunito Sans', sans-serif;
+    --dark_green_color: #007F5F;
+    --white_color: #FFFFFF;
+    --gray_white_color: #1E1E1E;
+    --all_heading_black_color: #292929;
+    --all_paragraph_black_color: #6A6A6A;
+    --orange_color: #FF8B00;
+
+}
+/* CSS variables part end */
+/* Common CSS part start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p, a, ul, ol, h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+ul, ol, li{
+    list-style: none;
+}
+.tow_common_heading{
+    text-align: center;
+}
+.tow_common_heading h2{
+    color: var(--all_heading_black_color);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font_family_poppins);
+}
+.tow_common_heading p{
+    color: var(--all_paragraph_black_color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_family_poppins);
+    line-height: 30px;
+    width: 692px;
+    margin: 0 auto;
+    padding-bottom: 112px;
+}
+/* Common CSS part end */
+/* Travel part start */
+#travel{
+    padding: 171px 0 160px 0;
+}
+.travel_items{
+    padding: 63px 44px;
+    border-radius: 14px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px -6px rgba(0,0,0,0.75);
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.travel_items .travel_info{}
+.travel_items .travel_info img{
+    background: rgba(0, 127, 95, 0.1);
+    padding: 19px 24px;
+    border-radius: 14px;
+}
+.travel_items .travel_info h3{
+    color: var(--all_heading_black_color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--font_family_poppins);
+    line-height: 24px;
+    padding: 39px 0 20px 0;
+}
+.travel_items .travel_info p{}
+/* Travel part end */

@@ -106,7 +106,7 @@ li {
 .banner_items .banner_btn a:hover{
     text-decoration: none;
 }
-.banner_items .banner_location{
+.banner_location{
     background: var(--white_color);
     border-radius: 17px;
     -webkit-border-radius: 17px;
@@ -116,21 +116,20 @@ li {
     padding: 23px 35px;
     display: flex;
     gap: 70px;
+    width: fit-content;
+    margin: 60px 0 122px 0;
 }
-.banner_items .banner_location h3{
-    
-}
-.banner_items .banner_location span{
+.banner_location .location_items span{
     color: var(--all_heading_black_color);
     font-size: 20px;
     font-weight: 700;
     font-family: var(--font_nunito);
     margin: 0 20px 0 26px;
 }
-.banner_items .banner_location i.agreenb{
+.banner_location .location_items i.agreenb{
     color: var(--dark_green_color);
 }
-.banner_items .banner_location input{
+.banner_location .location_items input{
     border: none;
     color: var(--all_heading_black_color);
     font-size: 16px;
@@ -138,7 +137,7 @@ li {
     font-family: var(--font_nunito);
     margin: 8px 0 0 46px;
 }
-.banner_items .banner_location .locatation_items a{
+.location_btn a{
     border: none;
     color: var(--white_color);
     background: var(--dark_green_color);
