@@ -72,24 +72,23 @@ li {
 .overlay{
     background: rgba(0, 0, 0, 0.4);
 }
-.banner_items{}
-.banner_items .banner_info{
+.banner_info{
     width: 573px;
 }
-.banner_items .banner_info h1{
+.banner_info h1{
     color: var(--white_color);
     font-size: 65px;
     font-weight: 600;
     font-family: var(--font_poppins);
     padding: 148px 0 30px 0;
 }
-.banner_items .banner_info p{
+.banner_info p{
     color: var(--white_color);
     font-size: 16px;
     font-weight: 400;
     font-family: var(--font_poppins);
 }
-.banner_items .banner_info .banner_btn a{
+.banner_btn a{
     color: var(--white_color);
     font-size: 16px;
     font-weight: 400;
@@ -114,19 +113,29 @@ li {
     gap: 70px;
     width: fit-content;
     margin: 60px 0 122px 0;
+    align-items: center;
 }
-.banner_location .location_items span{
+.location_items h3{
+    color: var(--all_heading_black_color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: var(--all_heading_black_color);
+}
+.location_items i{}
+.location_items h3 span{
     margin: 0 20px 0 11px;
 }
-.banner_location i.agreenb{
+.location_items i.agreenb{
     color: var(--dark_green_color);
 }
-.banner_location .location_items input{
+.location_items input{
     border: none;
     font-size: 16px;
     font-weight: 400;
     font-family: var(--font_nunito);
-    margin: 8px 47px 0 0;
+    line-height: 26px;
+    margin-left: 26px;
 }
 .location_btn a{
     color: var(--white_color);

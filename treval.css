@@ -4,7 +4,7 @@
     --font_family_nunito_sans: 'Nunito Sans', sans-serif;
     --dark_green_color: #007F5F;
     --white_color: #FFFFFF;
-    --gray_white_color: #1E1E1E;
+    --gray_white_color: #E0E0E0;
     --all_heading_black_color: #292929;
     --all_paragraph_black_color: #6A6A6A;
     --orange_color: #FF8B00;
@@ -32,6 +32,9 @@ ul, ol, li{
 .tow_common_heading{
     color: var(--all_heading_black_color);
     text-align: center;
+}
+.orange{
+    color: var(--orange_color);
 }
 /* Common CSS part end */
 /* Travel part start */
@@ -90,3 +93,69 @@ box-shadow: 0px 2px 11px -6px rgba(0,0,0,0.75);
     line-height: 30px;
 }
 /* Travel part end */
+/* Popular part start */
+#popular{}
+.popular_slider{
+    width: 370px;
+}
+.popular_slider .slider_items{}
+.popular_slider .slider_items .slider_img img{
+    width: 329px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.popular_slider .slider_items ul{
+    display: flex;
+    gap: 6px;
+}
+.popular_slider .slider_items ul li{
+    color: var(--gray_white_color);
+    padding: 37px 0 17px 0;
+}
+.popular_slider .slider_items ul li i.orange{
+    color: var(--orange_color);
+}
+.popular_slider .slider_items ul li i p.orange{
+    color: var(--orange_color);
+}
+.popular_slider .slider_items ul li p{
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_family_poppins);
+}
+.popular_slider .slider_items h4{
+    color: var(--all_heading_black_color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--font_family_poppins);
+}
+.popular_slider .slider_items p{
+    color: var(--all_paragraph_black_color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: var(--font_family_poppins);
+    padding: 20px 0 30px 0;
+}
+.popular_slider .slider_items .slider_btn a{
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font_family_poppins);
+    background: var(--dark_green_color);
+    padding: 10px 35px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.popular_slider .slider_items p span{
+    color: var(--all_heading_black_color);
+    font-weight: bold;
+}
+/* Popular part end */
