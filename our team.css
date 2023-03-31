@@ -1,0 +1,92 @@
+/* CSS variables part start */
+:root{
+    --font_open_sans: 'Open Sans', sans-serif;
+    --font_oswald: 'Oswald', sans-serif;
+    --blue_color: #0872b9;
+    --blue_hover_color: #5bc5f4;
+    --white_color: #ffffff;
+    --gray_white_color: #f1f1f1;
+    --all_heading_black_color: black;
+    --all_paragraph_black_color: #353535;
+}
+/* CSS variables part end */
+/* Common CSS start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, ol, li{
+    list-style: none;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.all_section_heading{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0 45px 0;
+}
+.all_section_heading h2{
+    color: var(--all_heading_black_color);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--font_oswald);
+    position: relative;
+    display: inline-block;
+}
+.all_section_heading h2::before{
+    content: "";
+    background: url(images/beatles/ab-shape.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    height: 2px;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+#blackt{
+    color: var(--all_heading_black_color);
+}
+#bluet{
+    color: var(--blue_color);
+}
+#blueb{
+    background: var(--blue_color);
+    border: 2px solid var(--blue_color);
+}
+#ablueb{
+    background: var(--blue_hover_color);
+}
+/* Common CSS part end */
+/* Our team part start */
+#ourteam{}
+.ourteam_main{}
+.ourteam_main .ourteam_items{
+    width: 220px;
+}
+.ourteam_main .ourteam_items .image{
+    position: relative;
+    overflow: hidden;
+}
+.ourteam_main .ourteam_items .image .overlay{
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ourteam_main .ourteam_items .image .overlay{}
+/* Our team part end */

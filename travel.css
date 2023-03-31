@@ -1,0 +1,101 @@
+/* CSS variables part start */
+:root {
+    --font_poppins: 'Poppins', sans-serif;
+    --font_nunito: 'Nunito Sans', sans-serif;
+    --dark_green: #007F5F;
+    --white: #FFFFFF;
+    --orange: #FF8B00;
+    --ah_balck: #292929;
+    --ap_black: #6A6A6A;
+    
+}
+/* CSS variables part end */
+/* Common CSS part start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+a,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+.agreenb{
+    color: var(--dark_green);
+}
+/* Common CSS part end */
+/* Travel part start */
+#travel{}
+.tow_heading{
+    text-align: center;
+    width: 692px;
+    margin: 0 auto;
+}
+.tow_heading h2{
+    color: var(--ah_balck);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+}
+.tow_heading p{
+    color: var(--ap_black);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--font_poppins);
+}
+.travel_items{
+    border: 1px solid;
+    padding: 30px 30000000000000000000px;
+    width: fit-content;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    /* display: flex; */
+}
+.travel_icon img{
+    background: rgba(0, 127, 95, 0.1);
+    padding: 18px 22px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.travel_info h3{
+    color: var(--all_heading_black_color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--font_family_poppins);
+    line-height: 24px;
+    padding: 39px 0 20px 0;
+}
+.travel_info p{
+
+}
+/* Travel part end */

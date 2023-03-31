@@ -78,5 +78,11 @@ ul, ol, li{
     line-height: 24px;
     padding: 39px 0 20px 0;
 }
-.travel_items .travel_info p{}
+.travel_items .travel_info p{
+    color: var(--ap_black);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--font_family_poppins);
+}
 /* Travel part end */

@@ -99,6 +99,7 @@ li {
     text-decoration: none;
 }
 .banner_location{
+    width: fit-content;
     background: var(--white);
     border-radius: 17px;
     -webkit-border-radius: 17px;
@@ -107,20 +108,21 @@ li {
     -o-border-radius: 17px;
     padding: 35px 23px;
     display: flex;
-    gap: 70px;
-    width: fit-content;
     display: flex;
     align-items: center;
     margin-top: 60px;
 }
-.location_items h3{
+.banner_location .locotion_items{
+    gap: 70px;
+}
+.banner_location .location_items h3{
     color: var(--ah_balck);
     font-size: 20px;
     line-height: 26px;
     font-weight: 700;
     font-family: var(--font_nunito);
 }
-.location_items h3 span{
+.banner_location .location_items h3 span{
     margin: 0 20px 0 11px;
 }
 .location_items input{
