@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cursor</title>
+    <link rel="stylesheet" href="cursor.css">
+</head>
+<body>
+    <h1>Cursor pointer.</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta tempora soluta ratione architecto est provident, vel molestiae fugiat placeat accusamus ex nihil quod, veritatis ea beatae? Velit, sunt aut.
+    </p>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove", function(e){
+            cursor.style.cssText = cursor.style.cssText = "left" + e.clientX + "px top: " + e.clintY + "px";
+        });
+    </script>
+</body>
+</html>

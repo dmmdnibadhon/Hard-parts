@@ -1,0 +1,45 @@
+/* CSS variables part start */
+:root{
+    --font_family_popins: 'Poppins', sans-serif;
+    --font_family_nunito_sans: 'Nunito Sans', sans-serif;
+    --green_color: #007F5F;
+    --white_color: #FFFFFF;
+    --gray_white_color: #F4F4F4;
+    --allh_black_color: #292929;
+    --allp_black_color: #6A6A6A;
+    --orange_color: #FF8B00;
+
+}
+/* CSS variables part end */
+/* Counter part start */
+#counter{
+    background: var(--gray_white_color);
+}
+.counter_count{
+    background: var(--white_color);
+    padding: 62px 32px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    width: fit-content;
+}
+.counter_count .counter_icon{
+    color: var(--green_color);
+    background: rgba(0, 127, 95, 0.1);
+    padding: 22px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    width: fit-content;
+}
+.counter_count .counter_icon span{
+    padding-bottom: 20px;
+    
+}
+.counter_count h3{}
+.counter_count h5{}
+/* Counter part end */
